@@ -1,8 +1,18 @@
-= auto_auth_spec
+h1. auto_auth_spec
 
-Description goes here.
+Simple gem that allows you to automatically spec your controllers authentication checks.
 
-== Note on Patches/Pull Requests
+*NOTE:* This is a totally dumb speccer. It assumes all of your controllers actions require authentication and doesn't check for before_filter exceptions.
+
+h1. Usage
+
+In your Controller spec simply:
+
+<pre>
+require AuthAuthSpec
+</pre>
+
+h1. Note on Patches/Pull Requests
  
 * Fork the project.
 * Make your feature addition or bug fix.
@@ -13,6 +23,6 @@ Description goes here.
    bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-== Copyright
+h1. Copyright
 
 Copyright (c) 2009 Richard Hart. See LICENSE for details.
