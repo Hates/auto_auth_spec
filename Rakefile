@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "auto_auth_spec"
-    gem.summary = %Q{Auto spec controller authentication requests.}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Auto spec controller authentication requests."
+    gem.description = "Simple gem that allows you to automatically spec your controllers authentication checks."
     gem.email = "richard@ur-ban.com"
     gem.homepage = "http://github.com/Hates/auto_auth_spec"
     gem.authors = ["Richard Hart"]
