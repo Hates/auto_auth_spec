@@ -1,17 +1,15 @@
-h1. auto_auth_spec
+= auto_auth_spec
 
 Simple gem that allows you to automatically spec your controllers authentication checks.
 
 *NOTE:* This is a totally dumb speccer. It assumes all of your controllers actions require authentication and doesn't check for before_filter exceptions.
 
-h1. Usage
+= Usage
 
 In your Controller spec simply:
 
-<pre>
-require AuthAuthSpec
-</pre>
+  require AuthAuthSpec
 
-h1. Copyright
+= Copyright
 
 Copyright (c) 2009 Richard Hart. See LICENSE for details.
