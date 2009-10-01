@@ -14,17 +14,16 @@ Gem::Specification.new do |s|
   s.email = %q{richard@ur-ban.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc",
-     "README.textile"
+     "README.rdoc"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
      "README.rdoc",
-     "README.textile",
      "Rakefile",
      "VERSION",
+     "auto_auth_spec.gemspec",
      "lib/auto_auth_spec.rb",
      "test/auto_auth_spec_test.rb",
      "test/test_helper.rb"
