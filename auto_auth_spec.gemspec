@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Richard Hart"]
   s.date = %q{2009-10-01}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Simple gem that allows you to automatically spec your controllers authentication checks.}
   s.email = %q{richard@ur-ban.com}
   s.extra_rdoc_files = [
     "LICENSE",
