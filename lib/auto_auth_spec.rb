@@ -12,7 +12,7 @@ module AutoAuthSpec
           segmants = original_segs.find_all{|s| s.to_s.match(/^:/)}.collect{|s| s.to_s.gsub(":","").to_sym}
           params_hash = Hash[*segmants.zip(segmants.collect{|s| s.to_s.sub(":","")}).flatten]
           send(verb, action, params_hash)
-          response.should redirect_to(new_session_path)
+          response.should redirect_to(sign_in_path)
         end
       end
     end
